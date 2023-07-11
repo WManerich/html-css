@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Champagne & Limousines';
+    src: url(fonts/Champagne\ &\ Limousines.ttf) format('truetype'),url(fonts/Champagne\ &\ Limousines\ Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /*
+        Tipos de format ()
+        => opentype (otf)
+        => truetype (ttf)
+        => embedded-opentype
+        => truetype-aat (Apple Advanced Typography)
+        => svg
+    */
+}
+
+@font-face {
+    font-family: 'Milchella-Regular';
+    src: url(fonts/Milchella-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Champagne & Limousines';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+h1 {
+    font-family: 'Milchella-Regular';
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Milchella-Regular';
+    font-size: 25px;
+    text-align: right;
+}
